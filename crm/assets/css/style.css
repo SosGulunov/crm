@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+    border: 0;
+    background-color: rgb(91, 135, 177);
+    padding: 10px;
+    font-size: 30px;
+    width: 50%;
+}
+
+textarea,
+select {
+    width: 50%;
+    padding: 10px;
+}
+
+button {
+    border: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
+}
+
+form button {
+    font-size: 30px;
+    height: 70px;
+    background-color: lightgreen;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.adverts {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.advert {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.advert img {
+    width: 100%;
+}
+
+.btn {
+    display: block;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+}
+
+.flex {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.flex img {
+    width: 50%;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
